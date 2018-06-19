@@ -47,7 +47,7 @@ public class SaleEvent {
     public static void main(String[] args) {
         SaleEvent saleEvent = new SaleEvent();
         saleEvent.setId("100");
-        saleEvent.setStreetAddress("123 Main St.");
+        saleEvent.setStreetAddress("122 Main St.");
         saleEvent.setCity("Naperville");
 
         System.out.println(saleEvent.toString());
