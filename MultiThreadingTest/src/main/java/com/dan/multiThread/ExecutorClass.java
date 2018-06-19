@@ -11,7 +11,7 @@ public class ExecutorClass {
 		
 		Future<?> futureTask = executor.submit(() -> {
 		    String threadName = Thread.currentThread().getName();
-		    System.out.println("Hello from myExecutor: " + threadName);
+		    System.out.println("Hello from myExecutor : " + threadName);
 		});
 	}
 
